@@ -15,7 +15,7 @@ public class Utils {
     @EventMapping
     public Message handleTextMessage(MessageEvent<TextMessageContent> e) {
         System.out.println("event: " + e);
-        TextMessageContent message = e.getMessage();
-        return new TextMessage(message.getText());
+        // TextMessageContent message = ;
+        return new TextMessage("line://app/1653659118-dVN9QJbJ");
     }
 }
